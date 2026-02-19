@@ -5,7 +5,6 @@ def es_primo(n):
         if n % i == 0:
             return False
     return True
-
 if __name__ == "__main__":
     while True:
         n = int(input("Ingresa un número: "))
